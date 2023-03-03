@@ -7,12 +7,12 @@ public class Car {
 
     private double volumeEngine;
 
-    private int turbo;
+    private boolean turbo;
 
     public Car() {
     }
 
-    public Car(String model, int power, double volumeEngine, int turbo) {
+    public Car(String model, int power, double volumeEngine, boolean turbo) {
         this.model = model;
         this.power = power;
         this.volumeEngine = volumeEngine;
@@ -31,7 +31,7 @@ public class Car {
         return volumeEngine;
     }
 
-    public int getTurbo() {
+    public boolean getTurbo() {
         return turbo;
     }
 
@@ -47,7 +47,7 @@ public class Car {
         this.volumeEngine = volumeEngine;
     }
 
-    public void setTurbo(int turbo) {
+    public void setTurbo(boolean turbo) {
         this.turbo = turbo;
     }
 

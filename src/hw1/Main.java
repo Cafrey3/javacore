@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Car carInstance = new Car("BMW M3", 230, 2.5, 300);
+        Car carInstance = new Car("BMW M3", 230, 2.5, false);
         System.out.println(carInstance);
 
         Dog dogInstance = new Dog("Mars", 3, "Golden retriever");
